@@ -909,7 +909,7 @@ a:focus {
 }
 
 .project .col-md-4 {
-    padding: 0;
+    padding: 16px;
     display: flex;
 }
 
@@ -917,7 +917,7 @@ a:focus {
     position: relative;
     background: #ffffff;
     height: 100%;
-    margin: 16px;
+    margin: 0px;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
@@ -1018,6 +1018,7 @@ a:focus {
 
 .research .col-md-12 {
     display: flex;
+    padding: 16px;
 }
 
 .research .research-item {
