@@ -1,3 +1,5 @@
+// Default JS for the template
+// 
 (function ($) {
     "use strict";
     
@@ -107,3 +109,18 @@
     
 })(jQuery);
 
+
+// Collapse navber when click any nav-item in mobile view
+// 
+document.addEventListener("DOMContentLoaded", function () {
+    const navLinks = document.querySelectorAll(".nav-item.nav-link");
+    const navbarCollapse = document.getElementById("navbarCollapse");
+    navLinks.forEach(function (link) {
+      link.addEventListener("click", function () {
+            // Bootstrap collapse requires jQuery to trigger this
+            if (window.innerWidth < 992) { // only on mobile
+                new bootstrap.Collapse(navbarCollapse).toggle();
+            }
+        });
+    });
+});
