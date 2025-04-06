@@ -284,8 +284,8 @@ a:focus {
 }
 
 .hero .hero-text p {
-    color: #ffffff;
-    font-size: 25px;
+    color: #EF233C;
+    font-size: 30px;
     font-weight: 700;
     margin-bottom: 15px;
 }
@@ -300,7 +300,7 @@ a:focus {
 
 .hero .hero-text span {
     color: #ffffff;
-    font-size: 80px;
+    font-size: 90px;
     font-weight: 700;
     letter-spacing: 3px;
     margin-bottom: 15px;
@@ -317,6 +317,7 @@ a:focus {
 
 .hero .hero-text .typed-text {
     display: none;
+    /* color: #EF233C; */
 }
 
 .hero .hero-text .typed-cursor {
