@@ -373,11 +373,15 @@ a:focus {
     }
     
     .hero .hero-text p {
-        font-size: 20px;
+        font-size: 26px !important;
     }
     
     .hero .hero-text h1 {
         font-size: 45px;
+    }
+
+    .hero .hero-text h1 span {
+        font-size: 60px;
     }
     
     .hero .hero-text h2 {
