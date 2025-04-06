@@ -247,7 +247,8 @@ a:focus {
     width: 100%;
     margin-bottom: 45px;
     overflow: hidden;
-    background: linear-gradient(rgba(239, 35, 60, .95), rgba(239, 35, 60, .95)), url(../img/hero-bg.jpg);
+    /* background: linear-gradient(rgba(239, 35, 60, .95), rgba(239, 35, 60, .95)), url(../img/hero-bg2.jpg); */
+    background: url(../img/home2.jpg);
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -1259,7 +1260,7 @@ a:focus {
 /*******************************/
 .footer {
     /* background-image: ; */
-    background: linear-gradient(rgba(239, 35, 60, .95), rgba(239, 35, 60, .95)), url(../img/hero-bg.jpg);
+    background: linear-gradient(rgba(239, 35, 60, .95), rgba(239, 35, 60, .95)), url(../img/hero-bg.png);
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
