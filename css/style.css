@@ -250,7 +250,7 @@ a:focus {
     width: 100%;
     margin-bottom: 45px;
     overflow: hidden;
-    background: linear-gradient(rgba(239, 35, 59, 0), rgba(239, 35, 59, 0)), url(../img/home2.jpg);    
+    background: linear-gradient(rgba(239, 35, 59, 0), rgba(239, 35, 59, 0)), url(../img/home5.jpg);    
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -284,7 +284,7 @@ a:focus {
 }
 
 .hero .hero-text p {
-    color: #EF233C;
+    color: #ffffff;
     font-size: 30px;
     font-weight: 700;
     margin-bottom: 15px;
