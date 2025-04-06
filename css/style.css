@@ -295,7 +295,7 @@ a:focus {
     width: 100%;
     margin-bottom: 45px;
     overflow: hidden;
-    background: linear-gradient(rgba(239, 35, 59, 0), rgba(239, 35, 59, 0)), url(../img/home5.jpg);    
+    background: linear-gradient(rgba(239, 35, 59, 0), rgba(239, 35, 59, 0)), url(../img/home.jpg);    
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
