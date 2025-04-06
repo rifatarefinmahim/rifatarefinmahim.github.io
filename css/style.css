@@ -910,7 +910,7 @@ a:focus {
     width: 100%;
     margin: 45px 0;
     padding: 90px 0;
-    background-image: linear-gradient(to right, rgba(8, 8, 8, 0.829), rgba(0, 0, 0, 0.87)), url(../img/banner.jpg);
+    background-image: linear-gradient(to right, rgba(8, 8, 8, 0.829), rgba(0, 0, 0, 0.87)), url(../img/banner.webp);
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;    
@@ -1315,7 +1315,7 @@ a:focus {
 /*******************************/
 .footer {
     /* background-image: ; */
-    background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(../img/footer.jpg);
+    background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(../img/footer.webp);
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
