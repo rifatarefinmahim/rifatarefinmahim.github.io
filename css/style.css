@@ -160,6 +160,24 @@ a:focus {
     max-height: 40px;
 }
 
+.logo-default {
+    display: inline-block;
+    max-height: 40px;
+}
+
+.logo-sticky {
+    display: none;
+    max-height: 40px;
+}
+
+.navbar.nav-sticky .logo-default {
+    display: none;
+}
+
+.navbar.nav-sticky .logo-sticky {
+    display: inline-block !important;
+}
+
 .navbar .dropdown-menu {
     margin-top: 0;
     border: 0;
@@ -257,6 +275,14 @@ a:focus {
     .navbar-light.nav-sticky .navbar-nav .nav-link,
     .navbar-light.nav-sticky .navbar-nav .nav-link {
         color: #111111;
+    }
+
+    .logo-default {
+        display: none !important;
+    }
+
+    .logo-sticky {
+        display: inline-block !important;
     }
 }
 
