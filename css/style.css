@@ -1286,11 +1286,12 @@ a:focus {
 .blog .blog-meta {
     position: relative;
     display: flex;
-    margin-bottom: 15px;
+    margin-bottom: 0px;
+    margin-top: 20px;
 }
 
 .blog .blog-meta p {
-    margin: 0 10px 0 0;
+    margin: 0px 10px 0px 0;
     font-size: 13px;
 }
 
