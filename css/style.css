@@ -288,6 +288,128 @@ a:focus {
 
 
 /*******************************/
+/********** Page Title CSS ***********/
+/*******************************/
+.page-title {
+    position: relative;
+    width: 100%;
+    margin-bottom: 45px;
+    overflow: hidden;
+    background: linear-gradient(rgba(22, 8, 9, 0.493), rgba(14, 3, 5, 0.603)), url(/img/blogs/blog-title-bg.jpg);    
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 40vh; /* Full height of the viewport */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.page-title .container-fluid {
+    padding: 0;
+}
+
+.page-title .page-title-content {
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.page-title .page-title-text {
+    margin-top: 50px;
+}
+
+.page-title .page-title-text p {
+    color: #ffffff;
+    font-size: 30px;
+    font-weight: 700;
+    margin-bottom: 15px;
+}
+
+.page-title .page-title-text h1 {
+    color: #ffffff;
+    font-size: 60px;
+    font-weight: 500;
+    letter-spacing: 3px;
+    margin-bottom: 15px;
+}
+
+.page-title .page-title-text span {
+    color: #ffffff;
+    font-size: 90px;
+    font-weight: 700;
+    letter-spacing: 3px;
+    margin-bottom: 15px;
+}
+
+.page-title .page-title-text h2 {
+    display: inline-block;
+    margin: 0;
+    height: 35px;
+    color: #ffffff;
+    font-size: 35px;
+    font-weight: 600;
+}
+
+.page-title .page-title-text .typed-text {
+    display: none;
+    /* color: #EF233C; */
+}
+
+.page-title .page-title-text .typed-cursor {
+    font-size: 35px;
+    font-weight: 300;
+    color: #ffffff;
+}
+
+.page-title .page-title-btn .btn:first-child {
+    margin-right: 10px;
+}
+
+@media (max-width: 991.98px) {
+    .page-title {
+        padding-top: 60px;
+    }
+    
+    .page-title .page-title-content {
+        padding: 0 15px;
+    }
+
+    .page-title .page-title-text h1 {
+        font-size: 45px;
+    }
+}
+
+@media (max-width: 767.98px) {
+    .page-title {
+        padding-top: 60px;
+        padding-bottom: 60px;
+    }
+    
+    .page-title,
+    .page-title .page-title-text,
+    .page-title .page-title-btn {
+        width: 100%;
+        text-align: center;
+    }
+    
+    .page-title .page-title-text h1 {
+        font-size: 35px;
+    }
+}
+
+@media (max-width: 575.98px) {
+    .page-title .page-title-text h1 {
+        font-size: 30px;
+    }
+}
+
+
+
+/*******************************/
 /********** Hero CSS ***********/
 /*******************************/
 .hero {
@@ -472,6 +594,7 @@ a:focus {
         letter-spacing: 0;
     }
 }
+
 
 
 /*******************************/
@@ -1231,7 +1354,7 @@ a:focus {
 .blog {
     position: relative;
     width: 100%;
-    padding: 45px 0 15px 0;
+    padding: 45px 0px 15px 0;
 }
 
 .blog .blog-item {
@@ -1255,24 +1378,20 @@ a:focus {
 
 .blog .blog-item:hover img {
     transform: scale(1.1);
+    cursor: pointer;
 }
 
 .blog .blog-text {
     position: relative;
-    padding-left: 30px;
-    padding-right: 30px;
+    padding-left: 15px;
+    padding-right: 15px;
     padding-top: 30px;
 }
 
 .blog .blog-text h2 {
-    font-size: 25px;
+    font-size: 20px;
     font-weight: 500;
-    line-height: 40px;
-}
-
-.blog .blog-text p {
-    margin-bottom: 10px;
-    font-size:small;
+    /* line-height: 40px; */
 }
 
 .blog .blog-item a.btn {
@@ -1286,11 +1405,10 @@ a:focus {
 .blog .blog-meta {
     position: relative;
     display: flex;
-    margin-bottom: 15px;
+    margin-top: 10px;
 }
 
 .blog .blog-meta p {
-    margin: 0 10px 0 0;
     font-size: 13px;
 }
 
@@ -1305,8 +1423,8 @@ a:focus {
 
 .blog .blog-button {
     position: relative;
-    padding-left: 30px;
-    padding-right: 30px;
+    padding-left: 15px;
+    padding-right: 15px;
     padding-bottom: 30px;
 }
 
