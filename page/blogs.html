@@ -8,7 +8,7 @@
         <meta content="Free Website Template" name="description">
 
         <!-- Favicon -->
-        <link href="img/favicon.webp" rel="icon">
+        <link href="../img/favicon.webp" rel="icon">
 
         <!-- Google Font -->
         <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700&display=swap" rel="stylesheet">
@@ -23,8 +23,9 @@
         <!-- Template Stylesheet -->
         <link href="../css/style.css" rel="stylesheet">
 
-        <!-- page title css -->
+        
          <style>
+            /* page title css */
             .page-title {
                 position: relative;
                 width: 100%;
@@ -106,42 +107,23 @@
 
             @media (max-width: 991.98px) {
                 .page-title {
-                    padding-top: 60px;
-                }
-                
-                .page-title .page-title-content {
-                    padding: 0 15px;
-                }
-
-                .page-title .page-title-text h1 {
-                    font-size: 45px;
+                    display: none;      
                 }
             }
 
-            @media (max-width: 767.98px) {
-                .page-title {
-                    padding-top: 60px;
-                    padding-bottom: 60px;
-                }
-                
-                .page-title,
-                .page-title .page-title-text,
-                .page-title .page-title-btn {
-                    width: 100%;
-                    text-align: center;
-                }
-                
-                .page-title .page-title-text h1 {
-                    font-size: 35px;
-                }
+
+            /* blog section */
+            .blog {
+                margin-top: 50px; 
+                margin-bottom: 150px;
             }
 
-            @media (max-width: 575.98px) {
-                .page-title .page-title-text h1 {
-                    font-size: 30px;
+            @media (max-width: 991.98px) {
+                .blog {
+                    margin-top: 0px; 
+                    margin-bottom: 10px;
                 }
             }
-
         </style>
     </head>
 
@@ -193,7 +175,7 @@
         <!-- page-title End -->
 
         <!-- Blog Start -->
-        <div class="blog" id="blog" style="margin-top: 50px; margin-bottom: 150px;">
+        <div class="blog" id="blog">
             <div class="container">
                 <div class="section-header text-center wow zoomIn" data-wow-delay="0.1s">
                     <p>Blog</p>
@@ -223,23 +205,6 @@
             </div>
         </div>
         <!-- Blog End -->
-
-
-        <!-- Banner Start -->
-        <!-- <div class="banner wow zoomIn" data-wow-delay="0.1s">
-            <div class="container">
-                <div class="section-header text-center">
-                    <h2>Interested in Me?</h2>
-                </div>
-                <div class="container banner-text">
-                    <p>I am eager to collaborate on research projects in Machine Learning, Deep Learning 
-                        and Natural Language Processing. Additionally, I am passionate about developing 
-                        software solutions tailored for business needs. <span style="font-weight: 800; font-size: large;">Let's innovate together!</span></p>
-                    <a href="assets/Resume_of_Rifat_Arefin.pdf" class="btn" download="Resume_of_Rifat_Arefin.pdf"><b>Download My Resume</b></a>
-                </div>
-            </div>
-        </div> -->
-        <!-- Banner End -->
 
         <!-- Footer Start -->
         <footer class="footer">
