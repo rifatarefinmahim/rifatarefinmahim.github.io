@@ -1235,6 +1235,11 @@ a:focus {
     padding: 45px 0px 15px 0;
 }
 
+/* .blog .blog-item-container {
+    margin: 100px !important;
+    border: 1px solid red;
+} */
+
 .blog .blog-item {
     position: relative;
     margin-bottom: 30px;
