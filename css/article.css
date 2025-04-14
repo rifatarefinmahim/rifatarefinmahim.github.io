@@ -1,0 +1,65 @@
+/*******************************/
+/********** article CSS **********/
+/*******************************/
+.article {
+    position: relative;
+    width: 100%;
+    margin: 0px 0 45px 0;
+    color: #414141;
+}
+
+.article .col-lg-6 {
+    padding: 0;
+}
+
+.article .section-header {
+    margin-bottom: 15px;
+}
+
+.article .article-content {
+    padding: 0 60px;
+}
+
+.article .article-content .article-meta {
+    position: relative;
+    display: flex;
+    margin-bottom: 20px;
+}
+
+.article .article-content .article-meta p {
+    font-size: 13px;
+}
+
+.article .article-content .article-meta i {
+    color: #414141;
+    margin-right: 5px;
+}
+
+.article .article-content .article-meta p:last-child {
+    margin: 0;
+}
+
+.article .article-text p {
+    font-size: 16px;
+}
+
+.article .article-text h2 {
+    font-size: 24px;
+    font-weight: 700;
+}
+
+.article .article-text h5 {
+    font-size: 20px;
+    font-weight: 500;
+}
+
+.article .article-text li {
+    font-size: 16px;
+}
+
+
+@media (max-width: 991.98px) {
+    .article .article-content {
+        padding: 45px 15px 0 15px;
+    }
+}
