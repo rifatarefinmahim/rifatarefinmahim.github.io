@@ -1,5 +1,5 @@
 /*******************************/
-/********** article CSS **********/
+/********** article CSS ********/
 /*******************************/
 .article {
     position: relative;
@@ -61,5 +61,96 @@
 @media (max-width: 991.98px) {
     .article .article-content {
         padding: 45px 15px 0 15px;
+    }
+}
+
+
+/*******************************/
+/*********** PAGE CSS **********/
+/*******************************/
+
+/* page title css */
+.page-title {
+    position: relative;
+    width: 100%;
+    margin-bottom: 45px;
+    overflow: hidden;
+    background: linear-gradient(rgba(22, 8, 9, 0.493), rgba(14, 3, 5, 0.603)), url(/img/blogs/blog-title-bg.webp);    
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 40vh; /* Full height of the viewport */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.page-title .container-fluid {
+    padding: 0;
+}
+
+.page-title .page-title-content {
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.page-title .page-title-text {
+    margin-top: 50px;
+}
+
+.page-title .page-title-text p {
+    color: #ffffff;
+    font-size: 30px;
+    font-weight: 700;
+    margin-bottom: 15px;
+}
+
+.page-title .page-title-text h1 {
+    color: #ffffff;
+    font-size: 60px;
+    font-weight: 500;
+    letter-spacing: 3px;
+    margin-bottom: 15px;
+}
+
+.page-title .page-title-text span {
+    color: #ffffff;
+    font-size: 90px;
+    font-weight: 700;
+    letter-spacing: 3px;
+    margin-bottom: 15px;
+}
+
+.page-title .page-title-text h2 {
+    display: inline-block;
+    margin: 0;
+    height: 35px;
+    color: #ffffff;
+    font-size: 35px;
+    font-weight: 600;
+}
+
+.page-title .page-title-text .typed-text {
+    display: none;
+    /* color: #EF233C; */
+}
+
+.page-title .page-title-text .typed-cursor {
+    font-size: 35px;
+    font-weight: 300;
+    color: #ffffff;
+}
+
+.page-title .page-title-btn .btn:first-child {
+    margin-right: 10px;
+}
+
+@media (max-width: 991.98px) {
+    .page-title {
+        display: none;      
     }
 }
