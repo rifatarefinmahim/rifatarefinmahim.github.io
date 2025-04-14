@@ -1,0 +1,268 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <title>Blogs</title>
+        <meta content="width=device-width, initial-scale=1.0" name="viewport">
+        <meta content="Free Website Template" name="keywords">
+        <meta content="Free Website Template" name="description">
+
+        <!-- Favicon -->
+        <link href="img/favicon.webp" rel="icon">
+
+        <!-- Google Font -->
+        <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+
+        <!-- CSS Libraries -->
+        <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" rel="stylesheet">
+        <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" rel="stylesheet">
+        <link href="lib/animate/animate.min.css" rel="stylesheet">
+        <link href="lib/owlcarousel/assets/owl.carousel.min.css" rel="stylesheet">
+        <link href="lib/lightbox/css/lightbox.min.css" rel="stylesheet">
+
+        <!-- Template Stylesheet -->
+        <link href="css/style.css" rel="stylesheet">
+
+        
+         <style>
+            /* page title css */
+            .page-title {
+                position: relative;
+                width: 100%;
+                margin-bottom: 45px;
+                overflow: hidden;
+                background: linear-gradient(rgba(22, 8, 9, 0.493), rgba(14, 3, 5, 0.603)), url(/img/blogs/blog-title-bg.webp);    
+                background-position: center;
+                background-repeat: no-repeat;
+                background-size: cover;
+                min-height: 40vh; /* Full height of the viewport */
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+            }
+
+            .page-title .container-fluid {
+                padding: 0;
+            }
+
+            .page-title .page-title-content {
+                position: relative;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                flex-direction: column;
+            }
+
+            .page-title .page-title-text {
+                margin-top: 50px;
+            }
+
+            .page-title .page-title-text p {
+                color: #ffffff;
+                font-size: 30px;
+                font-weight: 700;
+                margin-bottom: 15px;
+            }
+
+            .page-title .page-title-text h1 {
+                color: #ffffff;
+                font-size: 60px;
+                font-weight: 500;
+                letter-spacing: 3px;
+                margin-bottom: 15px;
+            }
+
+            .page-title .page-title-text span {
+                color: #ffffff;
+                font-size: 90px;
+                font-weight: 700;
+                letter-spacing: 3px;
+                margin-bottom: 15px;
+            }
+
+            .page-title .page-title-text h2 {
+                display: inline-block;
+                margin: 0;
+                height: 35px;
+                color: #ffffff;
+                font-size: 35px;
+                font-weight: 600;
+            }
+
+            .page-title .page-title-text .typed-text {
+                display: none;
+                /* color: #EF233C; */
+            }
+
+            .page-title .page-title-text .typed-cursor {
+                font-size: 35px;
+                font-weight: 300;
+                color: #ffffff;
+            }
+
+            .page-title .page-title-btn .btn:first-child {
+                margin-right: 10px;
+            }
+
+            @media (max-width: 991.98px) {
+                .page-title {
+                    display: none;      
+                }
+            }
+
+
+            /* blog section */
+            .blog {
+                margin-top: 50px; 
+                margin-bottom: 150px;
+            }
+
+            @media (max-width: 991.98px) {
+                .blog {
+                    margin-top: 0px; 
+                    margin-bottom: 10px;
+                }
+            }
+        </style>
+    </head>
+
+    <body data-spy="scroll" data-target=".navbar" data-offset="51">
+        
+        <!-- Nav Bar Start -->
+        <div class="navbar navbar-expand-lg bg-light navbar-light">
+            <div class="container-fluid" style="color: aliceblue !important;">
+                <a href="index.html" class="navbar-brand">
+                    <!-- <img src="img/RIFAT AREFIN.png" alt=""> -->
+                    <img src="img/RIFAT AREFIN DARK.webp" alt="Default Logo" class="logo-default">
+                    <img src="img/RIFAT AREFIN.webp" alt="Sticky Logo" class="logo-sticky d-none">
+                </a>
+                <button type="button" class="navbar-toggler" data-toggle="collapse" data-target="#navbarCollapse">
+                    <span style="color: #000 !important;" class="navbar-toggler-icon"></span>
+                </button>
+
+                <div class="collapse navbar-collapse justify-content-between" id="navbarCollapse">
+                    <div class="navbar-nav ml-auto">
+                        <a href="index.html#about" class="nav-item nav-link">About</a>
+                        <a href="index.html#experience" class="nav-item nav-link">Experience</a>
+                        <a href="index.html#education" class="nav-item nav-link">Education</a>
+                        <a href="index.html#project" class="nav-item nav-link">Projects</a>
+                        <a href="index.html#research" class="nav-item nav-link">Research</a>
+                        <a href="index.html#skill-section" class="nav-item nav-link">Skills</a>
+                        <a href="index.html#achievement" class="nav-item nav-link">Achievements</a>
+                        <a href="" class="nav-item nav-link">Blogs</a>
+                        <a href="index.html#contact" class="nav-item nav-link">Contact</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Nav Bar End -->
+
+        <!-- page-title Start -->
+        <div class="page-title" id="home">
+            <div class="container-fluid">
+                <div class="row align-items-center">
+                    <div class="col-md-12">
+                        <div class="page-title-content">
+                            <div class="page-title-text">
+                                <h1>Blogs</h1>
+                            </div>
+                        </div>
+                    </div>   
+                </div>
+            </div>
+        </div>
+        <!-- page-title End -->
+
+        <!-- Blog Start -->
+        <div class="blog" id="blog">
+            <div class="container">
+                <div class="section-header text-center wow zoomIn" data-wow-delay="0.1s">
+                    <p>Blog</p>
+                    <h2>My Articles</h2>
+                </div>
+                <div class="row">
+                    <!-- Basic Commands of Apache Server -->
+                    <div class="col-lg-4" style="padding-top: 15px; padding-bottom: 15px;">
+                        <div class="blog-item wow fadeInUp shadow d-flex flex-column justify-content-between h-100" data-wow-delay="0.1s">
+                            <div class="blog-content">
+                                <div class="blog-img">
+                                    <img src="img/blogs/apache.webp" alt="Blog">
+                                </div>
+                                <div class="blog-text">
+                                    <h2>Basic Commands of Apache Server</h2>
+                                    <div class="blog-meta">
+                                        <p><i class="far fa-calendar-alt"></i>01-Jan-2045</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="blog-button">
+                                <a class="btn" href="./blogs/apache_basic_commands.html">Read Now <i class="fa fa-angle-right"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                </div> 
+            </div>
+        </div>
+        <!-- Blog End -->
+
+        <!-- Footer Start -->
+        <footer class="footer">
+            <div class="container">
+                <div class="footer-content">
+                    <div class="footer-info">
+                        <h2>Rifat Arefin</h2>
+                        <p class="mt-2 pt-2"><span><i class="fas fa-map-marker-alt"></i></span> &nbsp; Road-1, House-2, Block-F, Mirpur-2, Dhaka-1216</p>
+                        <p class="mt-2 pt-2"><span><i class="fa fa-envelope"></i> &nbsp; arefinrifat786@gmail.com</p>
+                        <p class="mt-2 pt-2"><span><i class="fa fa-phone"></i> &nbsp; +880 1881445919 &nbsp;</p>
+                    </div>
+                    <div class="footer-social">
+                        <a href="https://bd.linkedin.com/in/rifatarefin32"><i class="fab fa-linkedin-in"></i></a>
+                        <a href="https://www.facebook.com/rifatarefin.mahim/"><i class="fab fa-facebook-f"></i></a>
+                        <a href="https://wa.me/+8801881445919/"><i class="fab fa-whatsapp"></i></a>
+                        <a href="https://github.com/RifatArefin32/"><i class="fab fa-github"></i></a>
+                    </div>
+                </div>
+                <div class="footer-bottom">
+                    <p><a href="#">Rifat Arefin</a> &nbsp; | &nbsp; &copy; 
+                    <b>
+                        <script> 
+                            document.write(new Date().getFullYear());
+                        </script>
+                    </b>
+                    All Rights Reserved &nbsp;</p>
+                </div>
+            </div>
+        </footer>
+        <!-- Footer End -->
+        
+        
+        <!-- Back to top button -->
+        <a href="#" class="btn back-to-top"><i class="fa fa-chevron-up"></i></a>
+        
+        
+        <!-- Pre Loader -->
+        <div id="loader" class="show">
+            <div class="loader"></div>
+        </div>
+
+        
+        <!-- JavaScript Libraries -->
+        <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.bundle.min.js"></script>
+        <script src="lib/easing/easing.min.js"></script>
+        <script src="lib/wow/wow.min.js"></script>
+        <script src="lib/waypoints/waypoints.min.js"></script>
+        <script src="lib/typed/typed.min.js"></script>
+        <script src="lib/owlcarousel/owl.carousel.min.js"></script>
+        <script src="lib/isotope/isotope.pkgd.min.js"></script>
+        <script src="lib/lightbox/js/lightbox.min.js"></script>
+        
+        <!-- Contact Javascript File -->
+        <script src="mail/jqBootstrapValidation.min.js"></script>
+        <script src="mail/contact.js"></script>
+
+        <!-- Template Javascript -->
+        <script src="js/main.js"></script>
+    </body>
+</html>
