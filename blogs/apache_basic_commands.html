@@ -161,13 +161,24 @@
                                 <p>Default web directory of apache webserver is <code>/var/www/html</code>. Place your <code>index.html</code> or PHP files here.</p>
                                   
                                 <h5 class="mt-3">Configuration Files</h5>
+                                The main directory is located at <code>/etc/apache2</code>. 
+                                <h5 class="mt-3">Key File Paths</h5>
                                 <ul>
-                                  <li>Main Config - <code>/etc/apache2/apache2.conf</code></li>
-                                  <li>Virtual Hosts - <code>/etc/apache2/sites-available/000-default.conf</code></li>
-                                  <li>Ports Config - <code>/etc/apache2/ports.conf</code></li>
-                                  <li>Enabled Modules - <code>/etc/apache2/mods-enabled/</code></li>
+                                    <li><code>/etc/apache2/apache2.conf</code> - Main Apache configuration file. Global settings go here.</li>
+                                    <li><code>/etc/apache2/envvars</code> - Sets environment variables used by Apache.</li>
+                                    <li><code>/etc/apache2/ports.conf</code> - Defines ports Apache listens on (e.g., Listen 80).</li>
                                 </ul>
-                                
+
+                                <h5 class="mt-3">Key Directories</h5>
+                                <ul>
+                                    <li><code>/etc/apache2/sites-available/</code> - Contains config files for all available virtual hosts (but not enabled yet).</li>
+                                    <li><code>/etc/apache2/sites-enabled/</code> - Contains symlinks to files in sites-available/ that are currently enabled.</li>
+                                    <li><code>/etc/apache2/mods-available/</code> - Contains all modules that can be enabled.</li>
+
+                                    <li><code>/etc/apache2/mods-enabled/</code> - Symlinks to enabled modules (from mods-available/).</li>
+                                    <li><code>/etc/apache2/conf-available/</code> - Extra configuration snippets (not specific to virtual hosts).</li>
+                                    <li><code>/etc/apache2/conf-enabled/</code> - Symlinks to enabled config snippets.</li>
+                                </ul>
 
                                 <h5>Main Config - <code>/etc/apache2/apache2.conf</code></h5>
                                 <ul>
@@ -197,8 +208,14 @@
                                         We can create additional .conf files for other sites and enable them using
                                         <div class="bg-light border roudnded p-3">
                                             <code>
-                                                sudo a2ensite yoursite.conf <br>
+                                                sudo a2ensite oursite.conf <br>
                                                 sudo systemctl reload apache2
+                                            </code>
+                                        </div>
+                                        We can disable the site using the following command:
+                                        <div class="bg-light border roudnded p-3">
+                                            <code>
+                                                sudo a2dissite oursite.conf
                                             </code>
                                         </div>
                                     </li>
